@@ -1,0 +1,263 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+\pdfgentounicode=1
+
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+
+\begin{document}
+
+
+\begin{center}
+  \textbf{\Huge \scshape First Last} \\ \vspace{1pt}
+  \small Phone Number $|$ \href{mailto:x@x.com}{\underline{Email}} $|$
+  \href{https://linkedin.com/in/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/}{\underline{GitHub}} $|$
+  \href{https://website.com}{\underline{Website}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Uni Name} $|$ \emph{Degree}}{City, Province $|$ Class of 202x}
+\resumeItemListStart
+\resumeItem{Cumulative GPA: x.x/4.0 $|$ SAT/ACT: xxxx $|$ Scholarship 1, Scholarship 2, Scholarship 3, Scholarship 4}
+\resumeItem{Activities: Club 1, Club 2, Club 3, Club 4, Club 5, Club 6}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position $|$ Description}}{$|$ City, Province $|$ Jan. 2021 -- Present}
+\resumeItemListStart
+\resumeItem{}
+\resumeItem{}
+\resumeItemListEnd
+
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position $|$ Description}}{$|$ City, Province $|$ Jan. 2021 -- Present}
+\resumeItemListStart
+\resumeItem{}
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position $|$ Description}}{$|$ City, Province $|$ Jan. 2021 -- Present}
+\resumeItemListStart
+\resumeItem{}
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position $|$ Description}}{$|$ City, Province $|$ Jan. 2021 -- Present}
+\resumeItemListStart
+\resumeItem{}
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position $|$ Description}}{$|$ City, Province $|$ Jan. 2021 -- Present}
+\resumeItemListStart
+\resumeItem{}
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Extracurricular Activities}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position}}{Jan. 2020 -- Jan. 2022}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position}}{Jan. 2020 -- Jan. 2022}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position}}{Jan. 2020 -- Jan. 2022}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position}}{Jan. 2020 -- Jan. 2022}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position}}{Jan. 2020 -- Jan. 2022}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firm Name} $|$ \emph{Position}}{Jan. 2020 -- Jan. 2022}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+\section{Research \& Programming Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Project $|$ \emph{Stack/Technology $|$ Library}}}{}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Project $|$ \emph{Stack/Technology $|$ Library}}}{}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Project $|$ \emph{Stack/Technology $|$ Library}}}{}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+
+\resumeProjectHeading
+{\textbf{Project $|$ \emph{Stack/Technology $|$ Library}}}{}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Project $|$ \emph{Stack/Technology $|$ Library}}}{}
+\resumeItemListStart
+\resumeItem{}
+\resumeItemListEnd
+
+
+
+
+\resumeItemListEnd
+
+
+
+
+\section{Case Competitions}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Comp 1 $-$ 2022}{: } \\
+        \textbf{Comp 2 $-$ 2022}{: } \\
+        \textbf{Comp 3 $-$ 2022}{:} \\
+        }}
+\end{itemize}
+
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills \& Interests}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages $|$ Technical}{: } \\
+        \textbf{Interests}{: }\\
+
+        }}
+\end{itemize}
+
+
+%-------------------------------------------
+\end{document}
